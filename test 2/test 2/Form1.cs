@@ -19,7 +19,10 @@ namespace test_2
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            string x = "Hello World!";
+            string y = "Hello World!";
+            MessageBox.Show(y);
+
+            Console.WriteLine(y);
         }
     }
 }
